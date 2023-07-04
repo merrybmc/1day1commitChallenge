@@ -14,7 +14,7 @@ function App() {
       <Container>
         <HeaderBox>
           <Header style={{ paddingBottom: '1rem' }}>Front-end School 7th</Header>
-          <Header> 🍀1Day 1Commit Challenge 🍀</Header>
+          <Header> 🍀 1Day 1Commit Challenge 🍀</Header>
         </HeaderBox>
         <User />
       </Container>
