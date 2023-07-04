@@ -15,7 +15,7 @@ export default function User() {
     },
     {
       name: '김하영',
-      profileImg: 'https://img1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/XoC/image/w0gDroK5Q9vJacqEG4ZUm-N0nrk.jpg',
+      profileImg: 'https://avatars.githubusercontent.com/u/97607752?v=4',
       id: 'hangnik',
       link: 'https://www.github.com/hangnik',
     },
