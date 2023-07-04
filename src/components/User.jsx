@@ -14,10 +14,10 @@ export default function User() {
       link: 'https://github.com/samweol',
     },
     {
-      name: '징징이',
+      name: '김하영',
       profileImg: 'https://img1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/XoC/image/w0gDroK5Q9vJacqEG4ZUm-N0nrk.jpg',
-      id: 'GedFlow',
-      link: 'https://www.google.com',
+      id: 'hangnik',
+      link: 'https://www.github.com/hangnik',
     },
     { name: '아구몬', profileImg: 'https://data.onnada.com/character/202004/thumb_237746802_b3acfe21_B5ACEBAAAC29.png', id: 'GedFlow', link: 'https://www.google.com' },
   ]);
