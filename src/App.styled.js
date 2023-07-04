@@ -24,4 +24,5 @@ export const Header = styled.header`
   font-family: 'Cookierun';
   font-size: 2.5rem;
   text-align: center;
+  cursor: default;
 `;
