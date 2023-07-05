@@ -9,6 +9,7 @@ export const Container = styled.div`
 `;
 
 export const ProfileBox = styled.div`
+  height: 5rem;
   display: flex;
   align-self: row;
   justify-content: center;
@@ -17,9 +18,23 @@ export const ProfileBox = styled.div`
   cursor: default;
 `;
 
+export const ImgBox = styled.div`
+  width: 5.5rem;
+  height: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
 export const ProfileImg = styled.img`
   width: 5rem;
   height: 5rem;
   border-radius: 100px;
   cursor: pointer;
+  transition: all ease 0.1s;
+  &:hover {
+    width: 5.2rem;
+    height: 5.2rem;
+    border: 0.2rem solid orange;
+  }
 `;
