@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
@@ -18,10 +18,11 @@ export const HeaderBox = styled.div`
   color: #6a7ba2;
   position: fixed;
   top: 0;
+  z-index: 1;
 `;
 
 export const Header = styled.header`
-  font-family: 'Cookierun';
+  font-family: "Cookierun";
   font-size: 2.5rem;
   text-align: center;
   cursor: default;

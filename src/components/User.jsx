@@ -3,6 +3,7 @@ import GitHubCalendar from "react-github-calendar";
 import { Container, ImgBox, ProfileBox, ProfileImg } from "./User.styled";
 import useUserlist from "../hooks/useUserList";
 import SearchBar from "./SearchBar";
+import StyledBadge from "./StyledBadge";
 
 export default function User() {
   const { userList, searchUser } = useUserlist();
@@ -15,6 +16,7 @@ export default function User() {
         return (
           <Container key={index}>
             <div>
+              <StyledBadge badge={data.badge} />
               <ProfileBox>
                 <a href={data.link} target="_blank" rel="noreferrer">
                   <ImgBox>

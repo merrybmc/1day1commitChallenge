@@ -3,7 +3,6 @@ import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
 import "./Font/Font.css";
 import { Container, Header, HeaderBox } from "./App.styled";
-import SearchBar from "./components/SearchBar";
 
 function App() {
   const GlobalStyle = createGlobalStyle`
