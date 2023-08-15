@@ -96,5 +96,30 @@
       },
       { "name": "🌱 30일 챌린지", "date": "", "clear": false }
     ]
+    "link": "https://github.com/LeeeeHaeji"
+  },
+  {
+    "name": "김소희",
+    "profileImg": "https://avatars.githubusercontent.com/u/138556584?v=4",
+    "id": "esoby",
+    "link": "https://github.com/esoby"
+  },
+  {
+    "name": "장소진",
+    "profileImg": "https://avatars.githubusercontent.com/u/138555977?v=4",
+    "id": "sojinkorea",
+    "link": "https://github.com/sojinkorea"
+  },
+  {
+    "name": "신명진",
+    "profileImg": "https://avatars.githubusercontent.com/u/128403039?v=4",
+    "id": "mjshin0425",
+    "link": "https://github.com/mjshin0425"
+  },
+  {
+    "name": "박규경",
+    "profileImg": "https://avatars.githubusercontent.com/u/64006112?v=4",
+    "id": "ggpark1218",
+    "link": "https://github.com/ggpark1218"
   }
 ]

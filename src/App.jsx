@@ -11,7 +11,6 @@ function App() {
   return (
     <>
       <GlobalStyle />
-
       <Container>
         <HeaderBox>
           <Header style={{ paddingBottom: "1rem" }}>

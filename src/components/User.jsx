@@ -1,20 +1,22 @@
 import React, { useRef } from "react";
 import GitHubCalendar from "react-github-calendar";
-import { Container, ImgBox, ProfileBox, ProfileImg } from "./User.styled";
+import { Wrapper, Container, ImgBox, ProfileBox, ProfileImg } from "./User.styled";
 import useUserlist from "../hooks/useUserList";
 import SearchBar from "./SearchBar";
 import StyledBadge from "./StyledBadge";
+import data from './data.json';
+
 
 export default function User() {
   const { userList, searchUser } = useUserlist();
   const inputRef = useRef(null);
 
   return (
-    <div style={{ marginTop: "210px" }}>
+    <Container>
       <SearchBar ref={inputRef} onSearchHandler={searchUser} />
       {userList?.map((data, index) => {
         return (
-          <Container key={index}>
+          <Wrapper key={index}>
             <div>
               <StyledBadge badge={data.badge} />
               <ProfileBox>
@@ -29,9 +31,9 @@ export default function User() {
               </ProfileBox>
               <GitHubCalendar username={data.id} />
             </div>
-          </Container>
+          </Wrapper>
         );
       })}
-    </div>
+    </Container>
   );
 }
