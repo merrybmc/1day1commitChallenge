@@ -1,12 +1,17 @@
 import styled from 'styled-components';
 
+// export const ColumnBox = styled.div`
+// display: ;
+// `;
+
 export const Container = styled.div`
   width: 100vw;
-  margin-top: 210px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 3rem;
+  gap: 2.5rem;
 `;
 
 export const Wrapper = styled.div`

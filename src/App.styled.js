@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
 `;
 
@@ -16,6 +17,7 @@ export const HeaderBox = styled.div`
   color: #6a7ba2;
   position: fixed;
   top: 0;
+  z-index: 1;
 `;
 
 export const Header = styled.header`

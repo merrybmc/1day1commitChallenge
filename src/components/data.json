@@ -3,43 +3,99 @@
     "name": "조병민",
     "profileImg": "https://avatars.githubusercontent.com/u/65064563?v=4",
     "id": "merrybmc",
-    "link": "https://github.com/merrybmc"
+    "link": "https://github.com/merrybmc",
+    "badge": [
+      {
+        "name": "시범운영기간",
+        "date": "",
+        "clear": true
+      },
+      { "name": "🌱 30일 챌린지", "date": "", "clear": false }
+    ]
   },
   {
     "name": "박태준",
     "profileImg": "https://avatars.githubusercontent.com/u/126474575?v=4",
     "id": "GedFlow",
-    "link": "https://github.com/GedFlow"
+    "link": "https://github.com/GedFlow",
+    "badge": [
+      {
+        "name": "시범운영기간",
+        "date": "",
+        "clear": true
+      },
+      { "name": "🌱 30일 챌린지", "date": "", "clear": false }
+    ]
   },
   {
     "name": "오규영",
     "profileImg": "https://avatars.githubusercontent.com/u/87490781?v=4",
     "id": "oqoqoh",
-    "link": "https://github.com/oqoqoh"
+    "link": "https://github.com/oqoqoh",
+    "badge": [
+      {
+        "name": "시범운영기간",
+        "date": "",
+        "clear": true
+      },
+      { "name": "🌱 30일 챌린지", "date": "", "clear": false }
+    ]
   },
   {
     "name": "서주예",
     "profileImg": "https://avatars.githubusercontent.com/u/94788360?v=4",
     "id": "samweol",
-    "link": "https://github.com/samweol"
+    "link": "https://github.com/samweol",
+    "badge": [
+      {
+        "name": "시범운영기간",
+        "date": "",
+        "clear": true
+      },
+      { "name": "🌱 30일 챌린지", "date": "", "clear": false }
+    ]
   },
   {
     "name": "김하영",
     "profileImg": "https://avatars.githubusercontent.com/u/97607752?v=4",
     "id": "hangnik",
-    "link": "https://www.github.com/hangnik"
+    "link": "https://www.github.com/hangnik",
+    "badge": [
+      {
+        "name": "시범운영기간",
+        "date": "",
+        "clear": true
+      },
+      { "name": "🌱 30일 챌린지", "date": "", "clear": false }
+    ]
   },
   {
     "name": "우준하",
     "profileImg": "https://avatars.githubusercontent.com/u/54842493?v=4",
     "id": "wooluck210",
-    "link": "https://github.com/wooluck210"
+    "link": "https://github.com/wooluck210",
+    "badge": [
+      {
+        "name": "시범운영기간",
+        "date": "",
+        "clear": true
+      },
+      { "name": "🌱 30일 챌린지", "date": "", "clear": false }
+    ]
   },
   {
     "name": "이해지",
     "profileImg": "https://avatars.githubusercontent.com/u/116999139?v=4",
     "id": "LeeeeHaeji",
-    "link": "https://github.com/LeeeeHaeji"
+    "link": "https://github.com/LeeeeHaeji",
+    "badge": [
+      {
+        "name": "시범운영기간",
+        "date": "",
+        "clear": false
+      },
+      { "name": "🌱 30일 챌린지", "date": "", "clear": false }
+    ]
   },
   {
     "name": "김소희",
