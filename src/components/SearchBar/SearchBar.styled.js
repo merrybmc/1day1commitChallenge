@@ -23,9 +23,11 @@ export const Button = styled.button`
   margin-right: 10px;
   border-radius: 25%;
   cursor: pointer;
+  transition: 0.25s;
 
   &:hover {
     background-color: #2e3c7e;
     color: #fbeaeb;
+    transform: scale(1.2);
   }
 `;

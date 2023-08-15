@@ -11,7 +11,7 @@ const SearchBar = forwardRef((props) => {
 
   return (
     <Container>
-      <Input type='text' value={inputValue} onChange={(e) => handleOnchange(e)} />
+      <Input type='text' placeholder='이름 입력' value={inputValue} onChange={(e) => handleOnchange(e)} />
       <Button
         onClick={() => {
           props.onSearchHandler(inputValue);
