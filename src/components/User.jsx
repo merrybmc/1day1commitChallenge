@@ -1,14 +1,14 @@
 import React from 'react';
 import GitHubCalendar from 'react-github-calendar';
-import { Container, ImgBox, ProfileBox, ProfileImg } from './User.styled';
+import { Wrapper, ImgBox, ProfileBox, ProfileImg, Container } from './User.styled';
 import data from './data.json';
 
 export default function User() {
   return (
-    <div style={{ marginTop: '210px' }}>
+    <Container>
       {data?.map((data, index) => {
         return (
-          <Container key={index}>
+          <Wrapper key={index}>
             <div>
               <ProfileBox>
                 <a href={data.link} target='_blank' rel='noreferrer'>
@@ -20,9 +20,9 @@ export default function User() {
               </ProfileBox>
               <GitHubCalendar username={data.id} />
             </div>
-          </Container>
+          </Wrapper>
         );
       })}
-    </div>
+    </Container>
   );
 }
